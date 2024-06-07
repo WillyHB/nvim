@@ -13,3 +13,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup('willy/plugins/')
 require('lualine').setup()
+require('hardtime').setup()
